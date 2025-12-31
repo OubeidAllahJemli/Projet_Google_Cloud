@@ -1,25 +1,43 @@
-# Model files (too large for Git)
-deployment/models/*.pkl
-Ghassens_models/*.pkl
-models/**/*.pkl
+# =====================
+# Ghassen's work
+# =====================
+deployment/
+Ghassens_models/
 
-# Large data files
+# =====================
+# Large ML artifacts
+# =====================
+models/**/*.pkl
+models/**/*.pt
+models/**/*.h5
+models/**/*.joblib
+models/**/*.npz
+models/**/*.onnx
 *.pkl
-*.h5
-*.hdf5
-*.joblib
 
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-.ipynb_checkpoints/
-
-# Environment
-.env
-venv/models/*.pkl
-models/**/*.pkl
+# =====================
+# Python
+# =====================
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
+
+# =====================
+# Environments
+# =====================
 .env
+venv/
+env/
+
+# =====================
+# IDE / OS
+# =====================
+.vscode/
+.idea/
+.DS_Store
+
+# =====================
+# Utilities
+# =====================
+*.jar
+
