@@ -1,6 +1,43 @@
-models/*.pkl
+# =====================
+# Ghassen's work
+# =====================
+deployment/
+Ghassens_models/
+
+# =====================
+# Large ML artifacts
+# =====================
 models/**/*.pkl
+models/**/*.pt
+models/**/*.h5
+models/**/*.joblib
+models/**/*.npz
+models/**/*.onnx
+*.pkl
+
+# =====================
+# Python
+# =====================
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
+
+# =====================
+# Environments
+# =====================
 .env
+venv/
+env/
+
+# =====================
+# IDE / OS
+# =====================
+.vscode/
+.idea/
+.DS_Store
+
+# =====================
+# Utilities
+# =====================
+*.jar
+
