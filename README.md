@@ -161,7 +161,7 @@ This project implements and deploys an end-to-end **personalized movie recommend
 **Notebook:** `03_matrix_factorization_model.ipynb`
 
 **Approach:**
-- **Singular Value Decomposition** (SVD) with k=50 latent factors
+- **Singular Value Decomposition** (SVD) with k=10 latent factors
 - Decomposition: `R ≈ U × Σ × V^T`
   - U: User factors (668 × 50)
   - Σ: Singular values (50 × 50)
